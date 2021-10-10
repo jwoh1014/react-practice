@@ -1,4 +1,4 @@
-# 코딩애플을 통한 리액트 학습과정입니다.
+# React with CodinApple
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
