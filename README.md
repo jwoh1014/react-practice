@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# 코딩애플을 통한 리액트 학습과정입니다.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
