@@ -1,0 +1,49 @@
+@import './reset.scss';
+
+
+$메인색상 : #ff0000;
+
+.red {
+    color: $메인색상;
+}
+.wow-enter {
+  opacity : 0
+}
+
+.wow-enter-active {
+  opacity : 1;
+  transition : all 1000ms;
+}
+
+.my-alert {
+    background : #eeeeee;
+    padding : 15px;
+    border-radius : 5px;
+    max-width : 500px;
+    width : 100%;
+    margin : auto;
+  }
+  .my-alert2 {
+    @extend .my-alert;
+    background : yellow;
+  }
+  
+  .my-alert p {
+    margin-bottom : 0;
+  }
+  
+// @mixin 함수() {
+//     background : #eeeeee;
+//     padding : 15px;
+//     border-radius : 5px;
+//     max-width : 500px;
+//     width : 100%;
+//     margin : auto;
+//   }
+//   .my-alert {
+//     @include 함수()
+//   }
+  
+//   .my-alert p {
+//     margin-bottom : 0;
+//   }
